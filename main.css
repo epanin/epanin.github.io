@@ -21,7 +21,9 @@ body {
     background-color: aliceblue;
     color: #333333;
 
+    border-style: groove;
     width: 980px;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -41,10 +43,20 @@ main>h2 {
     font-size: 25px;
 }
 
+.content {
+    column-count: 2;
+    column-gap: 2em;
+    column-width: 250px;
+    column-rule: 2px solid #333333;
+}
 .italic {
     font-style: italic;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.list-style {
+    list-style-type: square;
 }
